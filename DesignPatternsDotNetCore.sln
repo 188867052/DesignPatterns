@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{79553F75-E8DC-4988-B511-A79CC6A9CDF7}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{182B58DC-6787-4A09-8BCF-87A96737E5A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern\BuilderPattern.csproj", "{D8B3C6D1-4AAD-4ED4-BFAE-582A1B43389C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{98F20A29-F842-4912-9058-C68E171A2C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -236,6 +238,18 @@ Global
 		{D8B3C6D1-4AAD-4ED4-BFAE-582A1B43389C}.Release|x64.Build.0 = Release|Any CPU
 		{D8B3C6D1-4AAD-4ED4-BFAE-582A1B43389C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D8B3C6D1-4AAD-4ED4-BFAE-582A1B43389C}.Release|x86.Build.0 = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|x64.Build.0 = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Debug|x86.Build.0 = Debug|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|x64.ActiveCfg = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|x64.Build.0 = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|x86.ActiveCfg = Release|Any CPU
+		{98F20A29-F842-4912-9058-C68E171A2C68}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
