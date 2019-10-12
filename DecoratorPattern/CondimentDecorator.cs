@@ -4,5 +4,4 @@
     {
         public abstract override string Description { get; }
     }
-
 }

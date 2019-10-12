@@ -17,7 +17,7 @@ namespace FlyweightPattern
         private void TakeOrders()
         {
             var factory = new BeverageFlyweightFactory();
-            
+
             takeAwayOrders.Add(factory.MakeBeverage(BeverageType.BubbleMilk));
             takeAwayOrders.Add(factory.MakeBeverage(BeverageType.BubbleMilk));
             takeAwayOrders.Add(factory.MakeBeverage(BeverageType.CoconutMilk));

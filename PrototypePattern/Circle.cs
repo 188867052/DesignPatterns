@@ -10,10 +10,8 @@ namespace PrototypePattern
             _radius = r;
         }
 
-        public object Clone()
-        {
-            return new Circle(_radius);
-        }
+        public object Clone() => MemberwiseClone();
+
         public void GetInfo()
         {
             Console.WriteLine($"Circle with radius {_radius}");

@@ -12,10 +12,8 @@ namespace PrototypePattern
             _height = h;
         }
 
-        public object Clone()
-        {
-            return new Rectangle(_width, _height);
-        }
+        public object Clone() => MemberwiseClone();
+      
         public void GetInfo()
         {
             Console.WriteLine($"Rectangle height {_height} and width {_width}");
